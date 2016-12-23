@@ -4,7 +4,8 @@
 ##使用方法
     
     //样式
-    UIDatePickerMode mode = UIDatePickerModeTime;
+    
+    UIDatePickerMode mode = UIDatePickerModeTime;
     
     LTSDateChoose *dateChoose =  [[LTSDateChoose alloc]initWithType:mode title:@"日期选择"];
     
