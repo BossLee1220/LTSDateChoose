@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38D3A4631E0D18E4008EEB08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D3A4621E0D18E4008EEB08 /* main.m */; };
+		38D3A4661E0D18E4008EEB08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D3A4651E0D18E4008EEB08 /* AppDelegate.m */; };
+		38D3A4691E0D18E4008EEB08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D3A4681E0D18E4008EEB08 /* ViewController.m */; };
+		38D3A46C1E0D18E4008EEB08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D3A46A1E0D18E4008EEB08 /* Main.storyboard */; };
+		38D3A46E1E0D18E4008EEB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D3A46D1E0D18E4008EEB08 /* Assets.xcassets */; };
+		38D3A4711E0D18E4008EEB08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D3A46F1E0D18E4008EEB08 /* LaunchScreen.storyboard */; };
+		38D3A47C1E0D18E4008EEB08 /* LTSDateChooseViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D3A47B1E0D18E4008EEB08 /* LTSDateChooseViewTests.m */; };
+		38D3A4871E0D18E4008EEB08 /* LTSDateChooseViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D3A4861E0D18E4008EEB08 /* LTSDateChooseViewUITests.m */; };
+		38D3A4A01E0D1DC4008EEB08 /* LTSBaseAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D3A49D1E0D1DC4008EEB08 /* LTSBaseAlertView.m */; };
+		38D3A4A11E0D1DC4008EEB08 /* LTSDateChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D3A49F1E0D1DC4008EEB08 /* LTSDateChoose.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38D3A4781E0D18E4008EEB08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38D3A4561E0D18E4008EEB08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38D3A45D1E0D18E4008EEB08;
+			remoteInfo = LTSDateChooseView;
+		};
+		38D3A4831E0D18E4008EEB08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38D3A4561E0D18E4008EEB08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38D3A45D1E0D18E4008EEB08;
+			remoteInfo = LTSDateChooseView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38D3A45E1E0D18E4008EEB08 /* LTSDateChooseView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTSDateChooseView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D3A4621E0D18E4008EEB08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38D3A4641E0D18E4008EEB08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38D3A4651E0D18E4008EEB08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38D3A4671E0D18E4008EEB08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38D3A4681E0D18E4008EEB08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38D3A46B1E0D18E4008EEB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38D3A46D1E0D18E4008EEB08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38D3A4701E0D18E4008EEB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38D3A4721E0D18E4008EEB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D3A4771E0D18E4008EEB08 /* LTSDateChooseViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTSDateChooseViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D3A47B1E0D18E4008EEB08 /* LTSDateChooseViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTSDateChooseViewTests.m; sourceTree = "<group>"; };
+		38D3A47D1E0D18E4008EEB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D3A4821E0D18E4008EEB08 /* LTSDateChooseViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTSDateChooseViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D3A4861E0D18E4008EEB08 /* LTSDateChooseViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTSDateChooseViewUITests.m; sourceTree = "<group>"; };
+		38D3A4881E0D18E4008EEB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D3A49C1E0D1DC4008EEB08 /* LTSBaseAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSBaseAlertView.h; sourceTree = "<group>"; };
+		38D3A49D1E0D1DC4008EEB08 /* LTSBaseAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSBaseAlertView.m; sourceTree = "<group>"; };
+		38D3A49E1E0D1DC4008EEB08 /* LTSDateChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSDateChoose.h; sourceTree = "<group>"; };
+		38D3A49F1E0D1DC4008EEB08 /* LTSDateChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSDateChoose.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38D3A45B1E0D18E4008EEB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D3A4741E0D18E4008EEB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D3A47F1E0D18E4008EEB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38D3A4551E0D18E4008EEB08 = {
+			isa = PBXGroup;
+			children = (
+				38D3A4601E0D18E4008EEB08 /* LTSDateChooseView */,
+				38D3A47A1E0D18E4008EEB08 /* LTSDateChooseViewTests */,
+				38D3A4851E0D18E4008EEB08 /* LTSDateChooseViewUITests */,
+				38D3A45F1E0D18E4008EEB08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38D3A45F1E0D18E4008EEB08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38D3A45E1E0D18E4008EEB08 /* LTSDateChooseView.app */,
+				38D3A4771E0D18E4008EEB08 /* LTSDateChooseViewTests.xctest */,
+				38D3A4821E0D18E4008EEB08 /* LTSDateChooseViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38D3A4601E0D18E4008EEB08 /* LTSDateChooseView */ = {
+			isa = PBXGroup;
+			children = (
+				38D3A49B1E0D1DC4008EEB08 /* LTSDateChoose */,
+				38D3A4641E0D18E4008EEB08 /* AppDelegate.h */,
+				38D3A4651E0D18E4008EEB08 /* AppDelegate.m */,
+				38D3A4671E0D18E4008EEB08 /* ViewController.h */,
+				38D3A4681E0D18E4008EEB08 /* ViewController.m */,
+				38D3A46A1E0D18E4008EEB08 /* Main.storyboard */,
+				38D3A46D1E0D18E4008EEB08 /* Assets.xcassets */,
+				38D3A46F1E0D18E4008EEB08 /* LaunchScreen.storyboard */,
+				38D3A4721E0D18E4008EEB08 /* Info.plist */,
+				38D3A4611E0D18E4008EEB08 /* Supporting Files */,
+			);
+			path = LTSDateChooseView;
+			sourceTree = "<group>";
+		};
+		38D3A4611E0D18E4008EEB08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38D3A4621E0D18E4008EEB08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38D3A47A1E0D18E4008EEB08 /* LTSDateChooseViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				38D3A47B1E0D18E4008EEB08 /* LTSDateChooseViewTests.m */,
+				38D3A47D1E0D18E4008EEB08 /* Info.plist */,
+			);
+			path = LTSDateChooseViewTests;
+			sourceTree = "<group>";
+		};
+		38D3A4851E0D18E4008EEB08 /* LTSDateChooseViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38D3A4861E0D18E4008EEB08 /* LTSDateChooseViewUITests.m */,
+				38D3A4881E0D18E4008EEB08 /* Info.plist */,
+			);
+			path = LTSDateChooseViewUITests;
+			sourceTree = "<group>";
+		};
+		38D3A49B1E0D1DC4008EEB08 /* LTSDateChoose */ = {
+			isa = PBXGroup;
+			children = (
+				38D3A49C1E0D1DC4008EEB08 /* LTSBaseAlertView.h */,
+				38D3A49D1E0D1DC4008EEB08 /* LTSBaseAlertView.m */,
+				38D3A49E1E0D1DC4008EEB08 /* LTSDateChoose.h */,
+				38D3A49F1E0D1DC4008EEB08 /* LTSDateChoose.m */,
+			);
+			path = LTSDateChoose;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38D3A45D1E0D18E4008EEB08 /* LTSDateChooseView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D3A48B1E0D18E4008EEB08 /* Build configuration list for PBXNativeTarget "LTSDateChooseView" */;
+			buildPhases = (
+				38D3A45A1E0D18E4008EEB08 /* Sources */,
+				38D3A45B1E0D18E4008EEB08 /* Frameworks */,
+				38D3A45C1E0D18E4008EEB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTSDateChooseView;
+			productName = LTSDateChooseView;
+			productReference = 38D3A45E1E0D18E4008EEB08 /* LTSDateChooseView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38D3A4761E0D18E4008EEB08 /* LTSDateChooseViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D3A48E1E0D18E4008EEB08 /* Build configuration list for PBXNativeTarget "LTSDateChooseViewTests" */;
+			buildPhases = (
+				38D3A4731E0D18E4008EEB08 /* Sources */,
+				38D3A4741E0D18E4008EEB08 /* Frameworks */,
+				38D3A4751E0D18E4008EEB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38D3A4791E0D18E4008EEB08 /* PBXTargetDependency */,
+			);
+			name = LTSDateChooseViewTests;
+			productName = LTSDateChooseViewTests;
+			productReference = 38D3A4771E0D18E4008EEB08 /* LTSDateChooseViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38D3A4811E0D18E4008EEB08 /* LTSDateChooseViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D3A4911E0D18E4008EEB08 /* Build configuration list for PBXNativeTarget "LTSDateChooseViewUITests" */;
+			buildPhases = (
+				38D3A47E1E0D18E4008EEB08 /* Sources */,
+				38D3A47F1E0D18E4008EEB08 /* Frameworks */,
+				38D3A4801E0D18E4008EEB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38D3A4841E0D18E4008EEB08 /* PBXTargetDependency */,
+			);
+			name = LTSDateChooseViewUITests;
+			productName = LTSDateChooseViewUITests;
+			productReference = 38D3A4821E0D18E4008EEB08 /* LTSDateChooseViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38D3A4561E0D18E4008EEB08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "李棠松";
+				TargetAttributes = {
+					38D3A45D1E0D18E4008EEB08 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					38D3A4761E0D18E4008EEB08 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38D3A45D1E0D18E4008EEB08;
+					};
+					38D3A4811E0D18E4008EEB08 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38D3A45D1E0D18E4008EEB08;
+					};
+				};
+			};
+			buildConfigurationList = 38D3A4591E0D18E4008EEB08 /* Build configuration list for PBXProject "LTSDateChooseView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38D3A4551E0D18E4008EEB08;
+			productRefGroup = 38D3A45F1E0D18E4008EEB08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38D3A45D1E0D18E4008EEB08 /* LTSDateChooseView */,
+				38D3A4761E0D18E4008EEB08 /* LTSDateChooseViewTests */,
+				38D3A4811E0D18E4008EEB08 /* LTSDateChooseViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38D3A45C1E0D18E4008EEB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D3A4711E0D18E4008EEB08 /* LaunchScreen.storyboard in Resources */,
+				38D3A46E1E0D18E4008EEB08 /* Assets.xcassets in Resources */,
+				38D3A46C1E0D18E4008EEB08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D3A4751E0D18E4008EEB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D3A4801E0D18E4008EEB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38D3A45A1E0D18E4008EEB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D3A4691E0D18E4008EEB08 /* ViewController.m in Sources */,
+				38D3A4661E0D18E4008EEB08 /* AppDelegate.m in Sources */,
+				38D3A4A01E0D1DC4008EEB08 /* LTSBaseAlertView.m in Sources */,
+				38D3A4A11E0D1DC4008EEB08 /* LTSDateChoose.m in Sources */,
+				38D3A4631E0D18E4008EEB08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D3A4731E0D18E4008EEB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D3A47C1E0D18E4008EEB08 /* LTSDateChooseViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D3A47E1E0D18E4008EEB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D3A4871E0D18E4008EEB08 /* LTSDateChooseViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38D3A4791E0D18E4008EEB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38D3A45D1E0D18E4008EEB08 /* LTSDateChooseView */;
+			targetProxy = 38D3A4781E0D18E4008EEB08 /* PBXContainerItemProxy */;
+		};
+		38D3A4841E0D18E4008EEB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38D3A45D1E0D18E4008EEB08 /* LTSDateChooseView */;
+			targetProxy = 38D3A4831E0D18E4008EEB08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38D3A46A1E0D18E4008EEB08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D3A46B1E0D18E4008EEB08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38D3A46F1E0D18E4008EEB08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D3A4701E0D18E4008EEB08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38D3A4891E0D18E4008EEB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38D3A48A1E0D18E4008EEB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38D3A48C1E0D18E4008EEB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTSDateChooseView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LTSDateChooseView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38D3A48D1E0D18E4008EEB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTSDateChooseView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LTSDateChooseView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38D3A48F1E0D18E4008EEB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTSDateChooseViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LTSDateChooseViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTSDateChooseView.app/LTSDateChooseView";
+			};
+			name = Debug;
+		};
+		38D3A4901E0D18E4008EEB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTSDateChooseViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LTSDateChooseViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTSDateChooseView.app/LTSDateChooseView";
+			};
+			name = Release;
+		};
+		38D3A4921E0D18E4008EEB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTSDateChooseViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LTSDateChooseViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTSDateChooseView;
+			};
+			name = Debug;
+		};
+		38D3A4931E0D18E4008EEB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTSDateChooseViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.LTSDateChooseViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTSDateChooseView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38D3A4591E0D18E4008EEB08 /* Build configuration list for PBXProject "LTSDateChooseView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D3A4891E0D18E4008EEB08 /* Debug */,
+				38D3A48A1E0D18E4008EEB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38D3A48B1E0D18E4008EEB08 /* Build configuration list for PBXNativeTarget "LTSDateChooseView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D3A48C1E0D18E4008EEB08 /* Debug */,
+				38D3A48D1E0D18E4008EEB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38D3A48E1E0D18E4008EEB08 /* Build configuration list for PBXNativeTarget "LTSDateChooseViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D3A48F1E0D18E4008EEB08 /* Debug */,
+				38D3A4901E0D18E4008EEB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38D3A4911E0D18E4008EEB08 /* Build configuration list for PBXNativeTarget "LTSDateChooseViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D3A4921E0D18E4008EEB08 /* Debug */,
+				38D3A4931E0D18E4008EEB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38D3A4561E0D18E4008EEB08 /* Project object */;
+}
