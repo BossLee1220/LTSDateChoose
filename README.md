@@ -1,6 +1,8 @@
 # LTSDateChooseView
 一个简单使用的日期选择控件!
+
 ![image](https://github.com/BossLee1220/LTSDateChoose/blob/master/date.gif)
+##LTSBaseAlertView基类 可扩展其他弹出试图
 ##使用方法
  
     UIDatePickerMode mode = UIDatePickerModeTime;
