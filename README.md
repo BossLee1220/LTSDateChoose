@@ -2,9 +2,7 @@
 一个简单使用的日期选择控件!
 ![image](https://github.com/BossLee1220/LTSDateChoose/blob/master/date.gif)
 ##使用方法
-    
-    //样式
-    
+ 
     UIDatePickerMode mode = UIDatePickerModeTime;
     
     LTSDateChoose *dateChoose =  [[LTSDateChoose alloc]initWithType:mode title:@"日期选择"];
